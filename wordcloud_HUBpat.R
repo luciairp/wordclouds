@@ -77,7 +77,6 @@ HUBpat <- read_csv("rtas_vie1130.csv")
 display.brewer.pal(8,"Dark2")
 
 # Fabricar corpus de palabras
-
 # convertir a solo texto:
 corpus <- Corpus(tm::VectorSource(HUBpat$EXPLORER))
 
